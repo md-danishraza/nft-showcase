@@ -6,6 +6,7 @@ import Landing from "./pages/Landing";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./pages/About";
+import FeaturesPage from "./pages/Features";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />
+          <Route path="/features" element={<FeaturesPage />} />
 
           {/* Fallback route for 404 errors */}
           <Route

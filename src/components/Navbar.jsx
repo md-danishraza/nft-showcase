@@ -49,7 +49,7 @@ function Navbar() {
 
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
-            {["About us", "Store", "Games"].map((item, idx) => (
+            {["Features", "Pricing", "Contact", "About"].map((item, idx) => (
               <a
                 key={item}
                 href={item.split(" ")[0]}

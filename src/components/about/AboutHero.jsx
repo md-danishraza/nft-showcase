@@ -36,7 +36,7 @@ function AboutHero() {
               <img
                 src={aboutHeroImg}
                 alt="About NFTme"
-                className="relative w-full max-w-md lg:max-w-lg h-auto object-contain transform group-hover:scale-105 transition-transform duration-500"
+                className="relative w-full rounded-2xl max-w-md lg:max-w-lg h-auto object-contain transform group-hover:scale-105 transition-transform duration-500"
               />
             </div>
           </div>
