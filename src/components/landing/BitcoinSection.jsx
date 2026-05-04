@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import bitcoinImg from "../assets/landing/bitcoinwork.jpg";
-import WhiteLinkButton from "./WhiteLinkButton";
+import bitcoinImg from "../../assets/landing/bitcoinwork.jpg";
+import WhiteLinkButton from "../WhiteLinkButton";
 
 function BitcoinSection() {
   // Timer state for the "Auction Ends In" section

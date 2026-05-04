@@ -1,6 +1,6 @@
 import React from "react";
-import communityImg from "../assets/landing/communityImg.jpg";
-import HighLightButton from "./HighlightButton";
+import communityImg from "../../assets/landing/communityImg.jpg";
+import HighLightButton from "../HighlightButton";
 
 function CommunitySection() {
   return (

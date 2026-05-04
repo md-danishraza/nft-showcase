@@ -1,9 +1,9 @@
 import React from "react";
-import HeroSection from "../components/HeroSection";
-import BitcoinSection from "../components/BitcoinSection";
-import TrendingSection from "../components/TrendingSection";
-import CommunitySection from "../components/CommunitySection";
-import PopularArtistSection from "../components/PopularArtistSection";
+import HeroSection from "../components/landing/HeroSection";
+import BitcoinSection from "../components/landing/BitcoinSection";
+import TrendingSection from "../components/landing/TrendingSection";
+import CommunitySection from "../components/landing/CommunitySection";
+import PopularArtistSection from "../components/landing/PopularArtistSection";
 
 function Landing() {
   return (

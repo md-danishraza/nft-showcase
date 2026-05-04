@@ -5,7 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-// import About from "./pages/About";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Landing />} />
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/about" element={<About />} />
 
           {/* Fallback route for 404 errors */}
           <Route

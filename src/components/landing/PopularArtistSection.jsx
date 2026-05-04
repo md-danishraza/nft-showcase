@@ -1,9 +1,9 @@
 import React from "react";
-import WhiteLinkButton from "./WhiteLinkButton";
-import ferhatPP from "../assets/landing/ferhatPP.jpg";
-import sebastianPP from "../assets/landing/sebastianPP.jpg";
-import javierPP from "../assets/landing/javierPP.jpg";
-import ericaPP from "../assets/landing/ericaPP.jpg";
+import WhiteLinkButton from "../WhiteLinkButton";
+import ferhatPP from "../../assets/landing/ferhatPP.jpg";
+import sebastianPP from "../../assets/landing/sebastianPP.jpg";
+import javierPP from "../../assets/landing/javierPP.jpg";
+import ericaPP from "../../assets/landing/ericaPP.jpg";
 
 function PopularArtistSection() {
   // Organizing the data into an array keeps the JSX clean and DRY

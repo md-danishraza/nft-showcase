@@ -1,6 +1,6 @@
 import React from "react";
-import HighLightButton from "./HighlightButton";
-import heroImg from "../assets/landing/heroImg.png";
+import HighLightButton from "../HighlightButton";
+import heroImg from "../../assets/landing/heroImg.png";
 
 function HeroSection() {
   return (

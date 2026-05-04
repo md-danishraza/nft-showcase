@@ -1,11 +1,11 @@
 import React from "react";
-import ericImg from "../assets/landing/ericImg.jpg";
-import ferhatImg from "../assets/landing/ferhatImg.jpg";
-import javierImg from "../assets/landing/javierImg.jpg";
-import miladImg from "../assets/landing/miladImg.jpg";
-import polinaImg from "../assets/landing/polinaImg.jpg";
-import sebastianImg from "../assets/landing/sebastianImg.jpg";
-import WhiteLinkButton from "./WhiteLinkButton";
+import ericImg from "../../assets/landing/ericImg.jpg";
+import ferhatImg from "../../assets/landing/ferhatImg.jpg";
+import javierImg from "../../assets/landing/javierImg.jpg";
+import miladImg from "../../assets/landing/miladImg.jpg";
+import polinaImg from "../../assets/landing/polinaImg.jpg";
+import sebastianImg from "../../assets/landing/sebastianImg.jpg";
+import WhiteLinkButton from "../WhiteLinkButton";
 
 function TrendingSection() {
   return (
