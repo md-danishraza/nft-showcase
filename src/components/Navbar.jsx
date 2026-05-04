@@ -106,7 +106,7 @@ function Navbar() {
           }`}
         >
           <div className="flex flex-col gap-3 py-4 border-t border-white/10">
-            {["About us", "Store", "Games"].map((item) => (
+            {["Features", "Pricing", "Contact", "About"].map((item) => (
               <a
                 key={item}
                 href="#"
