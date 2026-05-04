@@ -10,18 +10,27 @@ export default function HighLightButton({
       onClick={onClick}
       className={`
         relative flex items-center justify-center 
-        w-[180px] h-[50px] 
-        rounded-l-[12px] 
-        bg-gradient-to-r from-grad-start to-grad-end 
-        text-white font-clash font-semibold text-base uppercase tracking-[0.2em]
-        transition-all duration-300 hover:brightness-110 hover:shadow-lg hover:shadow-highlight/25 active:scale-95
+        px-8 py-3
+        min-w-[180px] h-[50px]
+        text-white font-clash font-semibold text-sm sm:text-base uppercase tracking-[0.2em]
+        transition-all duration-300 
+        hover:brightness-110 hover:shadow-lg hover:shadow-highlight/30 hover:scale-105
+        active:scale-95
+        overflow-hidden
+        group
         ${className}
       `}
       style={{
-        clipPath: "polygon(0 0, 100% 0, calc(100% - 24px) 100%, 0 100%)",
+        background: "linear-gradient(to bottom, #DD24E1, #5117F4)",
+        borderRadius: "12px 0 0 12px",
+        clipPath: "polygon(0 0, 100% 0, calc(100% - 20px) 100%, 0 100%)",
       }}
     >
-      {children}
+      {/* Shine effect on hover */}
+      <span className="absolute inset-0 w-full h-full bg-gradient-to-b from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+
+      {/* Button Text */}
+      <span className="relative z-10">{children}</span>
     </button>
   );
 }

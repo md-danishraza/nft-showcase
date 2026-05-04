@@ -4,11 +4,12 @@ import { Routes, Route } from "react-router-dom";
 // Import your 4 pages
 import Landing from "./pages/Landing";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 // import About from "./pages/About";
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0D0B0C] text-white">
+    <div className="min-h-screen bg-[#0D0B0C] text-white overflow-x-hidden">
       <div className="mx-auto max-w-7xl px-6 md:px-12 w-full">
         <Navbar />
 
@@ -27,6 +28,7 @@ function App() {
           />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }

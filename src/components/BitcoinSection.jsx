@@ -36,7 +36,7 @@ function BitcoinSection() {
   return (
     <div className="relative py-20 md:py-28 lg:py-32">
       {/* Container with max-width and padding from our App layout */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 ">
         {/* CSS GRID LAYOUT */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left Column - Image Container */}

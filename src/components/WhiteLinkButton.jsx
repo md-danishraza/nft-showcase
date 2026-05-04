@@ -7,13 +7,12 @@ export default function WhiteLinkButton({
   className = "",
   icon = "none",
 }) {
+  // 1. Updated base classes for a solid white button
   const baseClasses = `
-    group relative inline-flex items-center gap-2
-    font-poppins font-medium text-base md:text-lg
-    text-white border-b-2 border-white/30
-    hover:border-white/80
-    pb-1.5 transition-all duration-300
-    hover:gap-3 hover:text-highlight
+    group relative inline-flex items-center justify-center gap-2
+    bg-white text-black font-clash font-semibold text-base md:text-lg
+    px-6 py-3 rounded-md transition-all duration-300
+    hover:bg-gray-100 hover:scale-105 active:scale-95
     ${className}
   `;
 
@@ -22,16 +21,18 @@ export default function WhiteLinkButton({
       <span className="transition-all duration-300">{children}</span>
       {icon === "arrow" && (
         <svg
-          className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+          // 2. Updated hover animation to move diagonally (up and right)
+          className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
         >
+          {/* 3. Updated SVG path to an up-right arrow (↗) */}
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}
-            d="M14 5l7 7m0 0l-7 7m7-7H3"
+            d="M6 18L18 6M18 6H8M18 6v10"
           />
         </svg>
       )}

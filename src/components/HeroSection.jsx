@@ -33,7 +33,7 @@ function HeroSection() {
           {/* Left Container - Text Content */}
           <div className="flex-1 text-center lg:text-left max-w-2xl lg:max-w-none order-2 lg:order-1">
             {/* Main Heading */}
-            <h1 className="font-clash font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight sm:leading-tight md:leading-tight lg:leading-[1.2] mb-6 bg-gradient-to-r from-white via-white to-white/80 bg-clip-text text-transparent animate-fade-in-up">
+            <h1 className="font-clash font-semibold text-5xl sm:text-6xl md:text-7xl leading-tight sm:leading-tight md:leading-tight lg:leading-[1.2] mb-6 bg-gradient-to-r from-white via-white to-white/80 bg-clip-text text-transparent animate-fade-in-up">
               Discover Rare Collections Of Art & NFT's
             </h1>
 

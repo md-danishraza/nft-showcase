@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from "../assets/Union-logo.png";
+import WhiteLinkButton from "./WhiteLinkButton";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -62,12 +63,15 @@ function Navbar() {
 
           {/* Connect Wallet Button */}
           <div className="hidden md:block">
-            <button className="relative px-6 py-2.5 rounded-full font-poppins font-semibold text-sm overflow-hidden group bg-white/5 backdrop-blur-sm border border-white/20 hover:border-highlight/50 transition-all duration-300">
+            {/* <button className="relative px-6 py-2.5 rounded-full font-poppins font-semibold text-sm overflow-hidden group bg-white/5 backdrop-blur-sm border border-white/20 hover:border-highlight/50 transition-all duration-300">
               <span className="relative z-10 bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
                 Connect Wallet
               </span>
               <span className="absolute inset-0 bg-gradient-to-r from-grad-start/20 to-grad-end/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-full"></span>
-            </button>
+            </button> */}
+            <WhiteLinkButton className="text-sm!">
+              Connect Wallet
+            </WhiteLinkButton>
           </div>
 
           {/* Mobile Menu Button */}
@@ -106,7 +110,7 @@ function Navbar() {
               <a
                 key={item}
                 href="#"
-                className="font-poppins font-medium text-white/80 hover:text-white transition-colors duration-300 px-2 py-2 rounded-lg hover:bg-white/5"
+                className="font-clash  text-white/80 hover:text-white transition-colors duration-300 px-2 py-2 rounded-lg hover:bg-white/5"
                 onClick={() => setIsOpen(false)}
               >
                 {item}
