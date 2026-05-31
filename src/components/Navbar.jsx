@@ -109,7 +109,7 @@ function Navbar() {
             {["Features", "Pricing", "Contact", "About"].map((item) => (
               <a
                 key={item}
-                href="#"
+                href={`/${item.toLocaleLowerCase()}`}
                 className="font-clash  text-white/80 hover:text-white transition-colors duration-300 px-2 py-2 rounded-lg hover:bg-white/5"
                 onClick={() => setIsOpen(false)}
               >
